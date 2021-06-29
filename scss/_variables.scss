@@ -1,0 +1,53 @@
+//? variables.scss
+//? Path: _variables.scss
+ 
+$browser-fontsize-base: 16 !default; // Default browser font-size in px (unitless)
+$pixels-per-rem: 10 !default; // Root font-size in px (unitless)
+
+//? COLOR PALETTE
+
+// Base palette
+$color-primary: #61c5e8 !default;
+$color-secondary: #ed6f30 !default;
+$color-accent: #80bc49 !default;
+$color-gray: #888 !default;
+
+
+//? FONT
+
+// Font family
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,600;1,600&display=swap");
+// font-family: 'Barlow', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,700;0,900;1,700;1,900&display=swap");
+// font-family: 'Fraunces', serif;
+
+$font-family-sans-serif: "Barlow", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif: "Fraunces", Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace !default;
+
+$font-family-base: $font-family-sans-serif !default;
+
+// Font size
+$font-size-base: 1.6rem !default;
+
+$font-size-smaller: (floor($font-size-base * 0.75 * 10) / 10) !default;
+$font-size-small: (floor($font-size-base * 0.9 * 10) / 10) !default;
+$font-size-big: (floor($font-size-base * 1.25 * 10) / 10) !default;
+$font-size-bigger: (floor($font-size-base * 1.5 * 10) / 10) !default;
+$font-size-biggest: (floor($font-size-base * 2 * 10) / 10) !default;
+$font-size-large: (floor($font-size-base * 2.5 * 10) / 10) !default;
+$font-size-larger: (floor($font-size-base * 3 * 10) / 10) !default;
+$font-size-largest: (floor($font-size-base * 4 * 10) / 10) !default;
+
+// Line height
+$line-height-base: 1.5 !default;
+$line-height-small: 1.25 !default;
+$line-height-smaller: 1.125 !default;
+$line-height-smallest: 1 !default;
+
+// Font weight
+$font-weight-light: 300 !default;
+$font-weight-normal: normal !default; // 500
+$font-weight-semibold: 500 !default;
+$font-weight-bold: 700 !default;
